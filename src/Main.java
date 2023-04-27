@@ -241,7 +241,7 @@ public class Main {
             studentManager.listStudent.clear();
             studentManager.listStudent.addAll(danhSachSinhVienMoi);
             // cập nhaạp lại bộ nhớ , ghi ra file
-            String outputFile = "C:\\Users\\zxgak\\IdeaProjects\\ThiMoDule2\\src\\data\\data.csv";
+            String outputFile = PATH_STRING;
             FileWriter writer = new FileWriter(outputFile);
             for (Student sinhVien : studentManager.listStudent) {
                 String[] data = {

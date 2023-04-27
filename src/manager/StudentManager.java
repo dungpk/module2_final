@@ -15,13 +15,13 @@ public class StudentManager extends StudentAbstract implements Serializable {
     ;
 
     public StudentManager() {
-//        listStudent.add(new Student("123456", "phung khac dung", 25,
-//                "Nam", "Hà Nội", 9.6));
-//        listStudent.add(new Student("123456", "tran trung hieu", 22,
-//                "Nam", "Hà Nội", 8.6));
-//
-//        listStudent.add(new Student("123456", "tran trung hieu", 23,
-//                "Nam", "Hà Nội", 7.6));
+        listStudent.add(new Student("123456", "phung khac dung", 25,
+                "Nam", "Hà Nội", 9.6));
+        listStudent.add(new Student("123456", "tran trung hieu", 22,
+                "Nam", "Hà Nội", 8.6));
+
+        listStudent.add(new Student("123456", "tran trung hieu", 23,
+                "Nam", "Hà Nội", 7.6));
     }
 
     @Override
